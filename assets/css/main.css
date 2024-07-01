@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.ul-header li a {
+    color: #0838a0;
+    border-bottom: 2px solid transparent !important;
+}
+
+.ul-header li a:hover {
+    border-bottom: 2px solid #0838a0 !important;
+}
+
+.ul-section-home li:nth-child(1) a span {
+    color: #000;
+}
+
+.ul-section-home li:nth-child(2) a span {
+    color: #0A66C2;
+}
+
+.ul-section-home li:nth-child(3) a span {
+    color: #4AC958;
+}
+
+.ul-section-home li a span {
+    opacity: 80%;
+    transition: .4s ease all;
+}
+
+.ul-section-home li a span:hover {
+    opacity: 100%;
+}
+
+.div-section-about div {
+    width: 8rem;
+}
+
+.accordion-edit .accordion-button:focus {
+    background-color: unset !important;
+    box-shadow: 0 0 0 0.25rem rgba(8, 56, 160, 0.25) !important;
+}
+
+.accordion-edit .accordion-button:not(.collapsed) {
+    background-color: unset !important;
+}
+
+.skills-level div:nth-child(2) > div {
+    height: 0.7rem;
+    background-color: #9bb8d6;
+}
+
+.skills-level div:nth-child(2) div div {
+    background-color: #0A66C2;
+}
+
+.html-level {
+    width: 90%;
+}
+
+.css-level {
+    width: 60%;
+}
+
+.js-level {
+    width: 75%;
+}
+
+.react-level {
+    width: 30%;
+}
+
+.php-level {
+    width: 65%;
+}
+
+.node-level {
+    width: 20%;
+}
+
+.arrow-up {
+    bottom: 0;
+}
+
+.a-projects {
+    background-color: #0838a0;
+    width: 100%;
+    opacity: 70%;
+    transition: .6s all ease;
+}
+
+.a-projects:hover {
+    opacity: 100%;
+}
+
+footer {
+    background-color: #0838a0;
+}
+
+@media (min-width: 768px) {
+    .text-section-home {
+        width: 32rem;
+    }
+    .accordion-edit {
+        width: 28rem;
+    }
+    .a-projects {
+        width: 20rem;
+    }
+}
